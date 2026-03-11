@@ -1,2 +1,3 @@
 # user-locator
-just some random code locationtracker mdae with some js,html and php
+just some random locationtracker coded with  js, html and php. 
+was fun working on hope someone finds it helpful
