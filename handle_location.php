@@ -29,9 +29,6 @@ if ($data && isset($data->latitude) && isset($data->longitude)) {
     $stm->execute([$latitude, $longitude]);
     
     // Here you can process the location data as needed
-    // e.g., store in a database, perform reverse geocoding using a third-party API
-    // For example, to get city/country using an external API with PHP curl:
-    // (This requires an API key and more setup)
     
     $response['status'] = 'success';
     $response['message'] = "Received Lat: $latitude, Lon: $longitude";
@@ -43,3 +40,4 @@ if ($data && isset($data->latitude) && isset($data->longitude)) {
 
 echo json_encode($response);
 ?>
+
